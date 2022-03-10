@@ -3,6 +3,7 @@ body {
     font-size: 16px;
     letter-spacing: 1px;
     margin: 0%;
+    padding-top: 4em;
 }
 
 h1 {
@@ -57,7 +58,6 @@ li {
     display: inline-flex;
     padding: 0.25em 0.75em;
     text-align: right;
-    
 }
 
 a {
@@ -71,8 +71,6 @@ a:hover {
 
 .banner {
     display: flex;
-    position: relative;
-    top: 64px;
     justify-content: center; 
     background-color: rgb(38, 65, 67);
     flex-shrink: 1;
@@ -91,8 +89,6 @@ a:hover {
 
 .container-right {
     display: flex;
-    justify-content: center;
-    text-align: center;
     padding-right: 75px;
     width: 40%;
     flex-direction: column;
@@ -119,8 +115,6 @@ a:hover {
 
 .main-banner {
     display: flex;
-    position: relative;
-    top: 64px;
     justify-content: center; 
     background-color: rgb(207, 201, 209);
     flex-shrink: 1;
@@ -196,13 +190,13 @@ h6 {
 }
 
 .learning-banner {
-    padding: 2em 1em;
+    padding: 1em 1em;
     background-color: rgb(38, 65, 67);
 }
 
 .learning-banner h2 {
     text-align: center;
-    margin: 2em 0em 1em;
+    margin: 1em 1em;
 }
 
 .learning-banner h4 {
@@ -250,4 +244,18 @@ span.title {
 
 .container-left-article video {
     width: 100%;
+}
+
+.thesis-title {
+    background-color: rgb(207, 201, 209);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.legal {
+    border-top: 2px solid rgb(38, 65, 67);
+}
+.legal p {
+    font-size: 8px;
 }
