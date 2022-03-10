@@ -1,5 +1,5 @@
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Lato, Geneva, Verdana, sans-serif;
     font-size: 16px;
     letter-spacing: 1px;
     margin: 0%;
@@ -13,15 +13,16 @@ h1 {
 
 h2 {
     font-size: 40px;
-    font-weight: 500;
+    font-weight: lighter;
     color: rgb(230, 138, 34);
+    text-transform: uppercase;
 }
 
 h4 {
     font-size: 18px;
     font-weight: 500;
     color: rgb(255, 247, 253);
-    margin-bottom: 0.5em;
+    margin-bottom: 0.5em 0.5em;
 }
 
 nav {
@@ -54,7 +55,7 @@ ul {
 li {
     list-style: none;
     display: inline-flex;
-    padding: 0.25em 1em;
+    padding: 0.25em 0.75em;
     text-align: right;
     
 }
@@ -89,12 +90,13 @@ a:hover {
 }
 
 .container-right {
+    display: flex;
     justify-content: center;
+    text-align: center;
     padding-right: 75px;
     width: 40%;
-    display: flex;
     flex-direction: column;
-    margin: 32px auto;
+    margin: 2em auto;
 }
 
 .start {
@@ -102,11 +104,17 @@ a:hover {
     background-color: rgb(230, 138, 34);
     border: none;
     padding: 15px 32px;
-    margin-top: 100px;
-    font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 80px;
     text-transform: uppercase;
-    letter-spacing: 1.5px;
+    letter-spacing: 0.35em;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.start:hover {
+    transform: scale(1.05);
 }
 
 .main-banner {
@@ -147,7 +155,7 @@ h6 {
 .event-tab {
     display: flex;
     border-bottom: 2px double rgb(38, 65, 67);
-    
+    transition-duration: 0.30s;
 }
 
 .event-tab:hover {
@@ -156,12 +164,12 @@ h6 {
 
 .event-tab a:hover{
     color: rgb(255, 247, 253);
-    letter-spacing: 2px;
 }
 
 .event-tab a {
     font-weight: 600;
     text-transform: uppercase;
+    letter-spacing: 0.35em;
     font-size: 14px;
 }
 
@@ -185,4 +193,61 @@ h6 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.learning-banner {
+    padding: 2em 1em;
+    background-color: rgb(38, 65, 67);
+}
+
+.learning-banner h2 {
+    text-align: center;
+    margin: 2em 0em 1em;
+}
+
+.learning-banner h4 {
+    color: rgb(38, 65, 67);
+    margin-top: 0.25em;
+    font-weight: bold;
+}
+
+span.title {
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 0;
+}
+
+.course-cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.course {
+    background-color: rgb(255, 247, 253);
+    width: 26%;
+    margin: 2em;
+    border: 3px solid rgb(207, 201, 209);
+    transition-property: all;
+    transition-duration: 0.30s;
+    transition-timing-function: ease-in-out;
+}
+
+.course:hover {
+    transform: scale(1.1);
+    background-color: rgb(230, 138, 34);
+}
+
+.course img {
+    width: 100%;
+    height: auto;
+}
+
+.course-text {
+    padding: 1em;
+}
+
+.container-left-article video {
+    width: 100%;
 }
