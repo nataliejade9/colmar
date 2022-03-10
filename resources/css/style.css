@@ -5,21 +5,23 @@ body {
     margin: 0%;
 }
 
-
 h1 {
     text-transform: uppercase;
     display: inline-block;
-    font-size: 1.5em;
+    font-size: 1.25em;
 }
 
 h2 {
     font-size: 40px;
     font-weight: 500;
-    color: rgb(233, 159, 76);
+    color: rgb(230, 138, 34);
 }
 
-p {
+h4 {
     font-size: 18px;
+    font-weight: 500;
+    color: rgb(255, 247, 253);
+    margin-bottom: 0.5em;
 }
 
 nav {
@@ -34,6 +36,7 @@ nav {
 
 .logo img {
     height: 42px;
+    padding-left: 24px;
 }
 
 .logo {
@@ -53,7 +56,17 @@ li {
     display: inline-flex;
     padding: 0.25em 1em;
     text-align: right;
+    
 }
+
+a {
+    text-decoration: none;
+    color: rgb(38, 65, 67);
+}
+
+a:hover {
+    color: rgb(230, 138, 34);
+  }
 
 .banner {
     display: flex;
@@ -77,7 +90,6 @@ li {
 
 .container-right {
     justify-content: center;
-    text-align: center;
     padding-right: 75px;
     width: 40%;
     display: flex;
@@ -87,8 +99,90 @@ li {
 
 .start {
     color:rgb(38, 65, 67);
+    background-color: rgb(230, 138, 34);
     border: none;
     padding: 15px 32px;
     margin-top: 100px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.main-banner {
+    display: flex;
+    position: relative;
+    top: 64px;
+    justify-content: center; 
+    background-color: rgb(207, 201, 209);
+    flex-shrink: 1;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 1.75em;
+    color: rgb(38, 65, 67);
+}
+
+h6 {
+    letter-spacing: 0.25em;
+    font-weight: normal;
+    font-size: 0.5em;
+}
+
+.container-left-article {
+    display: block;
+    width: 60%;
+    margin: 32px 24px;
+}
+
+.container-left-article img {
+    width: 100%;
+}
+
+.container-right-tabs {
+    width: 40%;
+}
+
+.event-tab {
+    display: flex;
+    border-bottom: 2px double rgb(38, 65, 67);
     
+}
+
+.event-tab:hover {
+    background-color: rgb(230, 138, 34);
+}
+
+.event-tab a:hover{
+    color: rgb(255, 247, 253);
+    letter-spacing: 2px;
+}
+
+.event-tab a {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.event-tab p {
+    font-size: 12px;
+}
+
+.small-tumbnail {
+    display: block;
+    width: 35%;
+    margin: 2em;
+}
+
+.small-tumbnail img {
+    width: 100%;
+    height: auto;
+}
+
+.tumbnail-text {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
