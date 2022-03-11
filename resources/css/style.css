@@ -13,7 +13,7 @@ h1 {
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 36px;
     font-weight: lighter;
     color: rgb(230, 138, 34);
     text-transform: uppercase;
@@ -23,7 +23,7 @@ h4 {
     font-size: 18px;
     font-weight: 500;
     color: rgb(255, 247, 253);
-    margin-bottom: 0.5em 0.5em;
+    margin: 0.5em 0;
 }
 
 nav {
@@ -89,10 +89,9 @@ a:hover {
 
 .container-right {
     display: flex;
-    padding-right: 75px;
     width: 40%;
     flex-direction: column;
-    margin: 2em auto;
+    justify-content: center;
 }
 
 .start {
@@ -100,13 +99,12 @@ a:hover {
     background-color: rgb(230, 138, 34);
     border: none;
     padding: 15px 32px;
-    margin-top: 80px;
+    margin-top: 30px;
     text-transform: uppercase;
-    letter-spacing: 0.35em;
-    width: 70%;
-    display: flex;
     justify-content: center;
-    align-items: center;
+    letter-spacing: 0.35em;
+    display: flex;
+    width: 80%;
 }
 
 .start:hover {
@@ -196,19 +194,19 @@ h6 {
 
 .learning-banner h2 {
     text-align: center;
-    margin: 1em 1em;
 }
 
 .learning-banner h4 {
     color: rgb(38, 65, 67);
     margin-top: 0.25em;
-    font-weight: bold;
+    font-weight: bolder;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid rgb(38, 65, 67, 0.5);
 }
 
-span.title {
+.title {
     text-transform: uppercase;
-    font-size: 14px;
-    margin: 0;
+    font-size: 12px;   
 }
 
 .course-cards {
@@ -226,6 +224,10 @@ span.title {
     transition-property: all;
     transition-duration: 0.30s;
     transition-timing-function: ease-in-out;
+}
+
+.course-list {
+    font-size: 14px;
 }
 
 .course:hover {
@@ -249,13 +251,33 @@ span.title {
 .thesis-title {
     background-color: rgb(207, 201, 209);
     display: flex;
+    align-items: center;
     justify-content: center;
-    text-align: center;
 }
 
-.legal {
-    border-top: 2px solid rgb(38, 65, 67);
+.thesis .container-left-article {
+    margin-top: 0;
 }
-.legal p {
-    font-size: 8px;
+
+footer {
+    border-top: 1px solid rgb(38, 65, 67, 0.5);
+    background-color: rgb(207, 201, 209);
+    text-transform: uppercase;
+    display: flex;
+    align-items: flex-start;
+    font-size: 12px;
+    padding: 1em 2em;
+    align-items: center;
 }
+ 
+footer p {
+    flex-grow: 1;
+    padding-left: 1em;
+}
+
+footer ul {
+    display: inline-block;
+    
+}
+
+<!-- LOOK AT NOTES -->
