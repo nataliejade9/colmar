@@ -13,7 +13,7 @@ h1 {
 }
 
 h2 {
-    font-size: 36px;
+    font-size: 32px;
     font-weight: lighter;
     color: rgb(230, 138, 34);
     text-transform: uppercase;
@@ -22,8 +22,12 @@ h2 {
 h4 {
     font-size: 18px;
     font-weight: 500;
-    color: rgb(255, 247, 253);
+    color:  rgb(38, 65, 67);
     margin: 0.5em 0;
+}
+
+.banner h4 {
+    color:  rgb(255, 247, 253);
 }
 
 nav {
@@ -94,17 +98,28 @@ a:hover {
     justify-content: center;
 }
 
+.banner-text {
+    margin: 0 0.5em;
+}
+
+.banner-text h2 {
+    margin-top: 0;
+}
+
+.banner-text h4 {
+    margin: 2em 0;
+}
+
 .start {
     color:rgb(38, 65, 67);
     background-color: rgb(230, 138, 34);
     border: none;
     padding: 15px 32px;
-    margin-top: 30px;
+    margin: 0;
     text-transform: uppercase;
     justify-content: center;
-    letter-spacing: 0.35em;
     display: flex;
-    width: 80%;
+    width: 60%;
 }
 
 .start:hover {
@@ -154,11 +169,11 @@ h6 {
     background-color: rgb(230, 138, 34);
 }
 
-.event-tab a:hover{
+a .event-tab:hover {
     color: rgb(255, 247, 253);
 }
 
-.event-tab a {
+.read {
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.35em;
@@ -169,18 +184,18 @@ h6 {
     font-size: 12px;
 }
 
-.small-tumbnail {
+.small-thumbnail {
     display: block;
     width: 35%;
     margin: 2em;
 }
 
-.small-tumbnail img {
+.small-thumbnail img {
     width: 100%;
     height: auto;
 }
 
-.tumbnail-text {
+.thumbnail-text {
     width: 65%;
     display: flex;
     flex-direction: column;
@@ -197,7 +212,6 @@ h6 {
 }
 
 .learning-banner h4 {
-    color: rgb(38, 65, 67);
     margin-top: 0.25em;
     font-weight: bolder;
     padding-bottom: 0.5em;
@@ -280,4 +294,4 @@ footer ul {
     
 }
 
-<!-- LOOK AT NOTES -->
+/* Mobile view */
