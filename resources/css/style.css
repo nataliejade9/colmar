@@ -6,6 +6,10 @@ body {
     padding-top: 4em;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 h1 {
     text-transform: uppercase;
     display: inline-block;
@@ -295,3 +299,25 @@ footer ul {
 }
 
 /* Mobile view */
+
+@media only screen and (max-width: 750px) {
+    .banner {
+        flex-direction: column;
+    }
+    .container-left {
+        width: 100%;
+        margin: 0;
+    }
+    .container-right {
+        width: 100%;
+        padding: 2em;
+    }
+    .banner-text {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0;
+    }
+}
