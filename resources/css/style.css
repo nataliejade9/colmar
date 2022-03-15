@@ -154,18 +154,22 @@ h6 {
     font-size: 0.5em;
 }
 
-.container-left-article {
+.container-left {
     display: block;
     width: 60%;
     margin: 32px 24px;
 }
 
-.container-left-article img {
+.container-left img {
     width: 100%;
 }
 
 .container-right-tabs {
     width: 40%;
+}
+
+.mobile-small-thumbnail {
+    display: none;
 }
 
 .event-tab {
@@ -267,7 +271,7 @@ a .event-tab:hover {
     padding: 1em;
 }
 
-.container-left-article video {
+.container-left video {
     width: 100%;
 }
 
@@ -278,7 +282,7 @@ a .event-tab:hover {
     justify-content: center;
 }
 
-.thesis .container-left-article {
+.thesis .container-left {
     margin-top: 0;
 }
 
@@ -350,6 +354,31 @@ footer ul {
         margin: 0;
         text-align: center;
     }
-
-    MAKE START BUTTON SMALLER
+    .banner-text h2 {
+        margin: 0;
+    }
+   .container-left.article {
+       display: none;
+   }
+   .event-tab {
+       flex-direction: column;
+   }
+   .container-right-tabs {
+       width: 100%;
+   }
+   .small-thumbnail {
+       display: none;
+   }
+   .mobile-small-thumbnail {
+       display: block;
+       width: 100%;
+       height: auto;
+   }
+   .mobile-small-thumbnail img {
+        width: 100%;
+        padding: 1em;
+    }
+    .thumbnail-text {
+        padding: 0 2em 1em;
+    }
 }
