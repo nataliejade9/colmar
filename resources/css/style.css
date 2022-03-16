@@ -226,6 +226,7 @@ a .event-tab:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-right: 1em;
 }
 
 .learning-banner {
@@ -393,6 +394,7 @@ footer ul {
     }
     .thumbnail-text {
         padding: 0 2em 1em;
+        width: auto;
     }
     .course img {
         display: none;
