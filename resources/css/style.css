@@ -20,6 +20,13 @@ h1 {
     text-transform: uppercase;
     display: inline-block;
     font-size: 1.25em;
+    letter-spacing: 3px;
+}
+
+.academy {
+    font-weight: lighter;
+    color: rgb(38, 65, 67);
+    opacity: 0.5;
 }
 
 h2 {
