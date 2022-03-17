@@ -186,6 +186,10 @@ h6 {
     display: none;
 }
 
+.event-tab.first {
+    padding-top: 1em;
+}
+
 .event-tab {
     display: flex;
     border-bottom: 2px double rgb(38, 65, 67);
@@ -214,7 +218,8 @@ a .event-tab:hover {
 .small-thumbnail {
     display: block;
     width: 35%;
-    margin: 2em;
+    margin: 1em;    
+    padding-bottom: 0;
 }
 
 .small-thumbnail img {
@@ -378,6 +383,9 @@ footer ul {
    .event-tab {
        flex-direction: column;
    }
+   .event-tab.first {
+    padding-top: 0;
+}
    .container-right-tabs {
        width: 100%;
    }
